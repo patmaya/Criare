@@ -1,58 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criare</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <!-- Image and text -->
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./imgs/favicon-p_color.png"
+                    class="d-inline-block align-center" alt="logo" loading="lazy">
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- <nav>
             <div class="logo"><img src="./imgs/favicon-p_color.png" alt="pat logo">
             </div>
             <ul>
                 <li class="nav-list"><a href="#work">Work</a></li>
                 <li class="nav-list"><a href="#about">About Me</a></li>
                 <li class="nav-list"><a href="#contact">Contact</a></li>
-              </ul>
-        </nav>
+            </ul>
+        </nav> -->
         <br>
-            <div class="jumbo">
-                <h1>This is the birth of something nice.</h1>
-            </div>
+        <div class="jumbo">
+            <h1>This is the birth of something nice.</h1>
+        </div>
     </header>
 
     <section id="birds1-2">
         <section id="bird1" class="birds-color">
-            <div class="cards-text"> 
+            <div class="cards-text">
                 <h3>Title of this artwork.</h3>
                 <br>
                 <p>There are so many cool things to say about this little bird.</p>
                 <br>
                 <h4>Read about this ›</h4>
             </div>
-        <div class="cards-img">
-            <img src="./imgs/bird1.png" alt="bird" height="300px">
-        </div>
+            <div class="cards-img">
+                <img src="./imgs/bird1.png" alt="bird" height="300px">
+            </div>
+        </section>
+
+        <section id="bird2">
+            <div class="cards-text">
+                <h3>Title of this artwork.</h3>
+                <br>
+                <p>There are so many cool things to say about this little bird.</p>
+                <br>
+                <h4>Read about this ›</h4>
+            </div>
+            <div class="cards-img">
+                <img src="./imgs/bird2.png" alt="bird" height="300px">
+            </div>
+        </section>
     </section>
 
-    <section id="bird2">
-        <div class="cards-text"> 
-            <h3>Title of this artwork.</h3>
-            <br>
-            <p>There are so many cool things to say about this little bird.</p>
-            <br>
-            <h4>Read about this ›</h4>
-        </div>
-        <div class="cards-img">
-            <img src="./imgs/bird2.png" alt="bird" height="300px">
-        </div>
-    </section>
-</section>
-
-<!-- <section id="birds3-4">
+    <!-- <section id="birds3-4">
     <section id="bird3" class="birds-color">
         <div class="cards-text"> 
             <h3>Title of this artwork.</h3>
@@ -80,33 +103,33 @@
     </section>
 </section> -->
 
-<section id="birds5-6">
-    <section id="bird5">
-        <div class="cards-text"> 
-            <h3>Title of this artwork.</h3>
-            <br>
-            <p>There are so many cool things to say about this little bird.</p>
-            <br>
-            <h4>Read about this ›</h4>
-        </div>
-        <div class="cards-img">
-            <img src="./imgs/bird3.png" alt="bird" height="300px">
-        </div>
-    </section>
+    <section id="birds5-6">
+        <section id="bird5">
+            <div class="cards-text">
+                <h3>Title of this artwork.</h3>
+                <br>
+                <p>There are so many cool things to say about this little bird.</p>
+                <br>
+                <h4>Read about this ›</h4>
+            </div>
+            <div class="cards-img">
+                <img src="./imgs/bird3.png" alt="bird" height="300px">
+            </div>
+        </section>
 
-    <section id="bird6">
-        <div class="cards-text"> 
-            <h3>Title of this artwork.</h3>
-            <br>
-            <p>There are so many cool things to say about this little bird.</p>
-            <br>
-            <h4>Read about this ›</h4>
-        </div>
-        <div class="cards-img">
-            <img src="./imgs/bird6.png" alt="bird" height="300px">
-        </div>
+        <section id="bird6">
+            <div class="cards-text">
+                <h3>Title of this artwork.</h3>
+                <br>
+                <p>There are so many cool things to say about this little bird.</p>
+                <br>
+                <h4>Read about this ›</h4>
+            </div>
+            <div class="cards-img">
+                <img src="./imgs/bird6.png" alt="bird" height="300px">
+            </div>
+        </section>
     </section>
-</section>
 
     <footer>
         <div>
@@ -117,5 +140,17 @@
     </footer>
 
 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

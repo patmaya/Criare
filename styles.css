@@ -30,7 +30,12 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-  
+
+.nav-link {
+    font-size: large;
+    font-weight: 600;
+}
+
 /* nav * {
     display: inline-block;
     margin-right: 20px;
@@ -55,7 +60,9 @@ nav ul {
     display: flex;
     margin-top: 6em;
 }
-
+#birds-crazy {
+    display: flex;
+}
 #bird1 {
     display: flex;
     justify-content: space-around;
@@ -124,6 +131,10 @@ nav ul {
     background-color: rgb(255, 245, 233);
 }
 
+.card-title {
+    color: black;
+}
+
 .cards-text {
     width: auto;
     padding: 100px 0;
@@ -172,6 +183,7 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     line-height: 1.5em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -180,6 +192,7 @@ h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     line-height: 1.5em;
+    font-size: small;
     margin: 0;
     padding: 0;
 }
