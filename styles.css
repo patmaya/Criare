@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+  }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    height: 300px;
+    margin-left: 50px;
+  }
+
+.logo {
+    margin-top: 2%;
+    cursor: pointer;
+    width: 10%;
+  }
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+  
+/* nav * {
+    display: inline-block;
+    margin-right: 20px;
+} */
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-right: 30px;
+    list-style: none;
+  }
+
+.nav-list a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.jumbo {
+    display: flex;
+    margin-top: 6em;
+}
+
+#bird1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: khaki;
+    height: 400px;
+}
+
+#bird2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    height: 400px;
+}
+
+#bird3 {
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    height: 400px;
+}
+
+#bird4 {
+    display: flex;
+    justify-content: center;
+    background-color: lightyellow;
+    height: 400px;
+}
+
+#bird5 {
+    display: flex;
+    justify-content: space-around;
+/*     align-content: center;
+    align-items: center; */
+    background-color: bisque;
+    height: 400px;
+}
+
+#bird6 {
+    display: flex;
+    justify-content: space-around;
+/*     align-content: center;
+    align-items: center; */
+    background-color: lightyellow;
+    height: 400px;
+}
+
+#birds1-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#birds3-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#birds5-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.birds-color {
+    background-color: rgb(255, 245, 233);
+}
+
+.cards-text {
+    width: auto;
+    padding: 100px 0;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+.cards-img {
+    width: 300px; 
+    height: 300px;
+    position: right;
+    margin: 5%;
+    padding-bottom: 30px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.7em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.italics {
+    font-style: italic;
+}
+
+footer {
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+/*     background-color: rgb(253, 248, 179); */
+}
+
+@media screen and (max-width: 1040px) {
+    #birds1-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    #birds5-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
